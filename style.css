@@ -9,3 +9,7 @@ Version: 0.1
 Tags: flexble-width, translation-ready, microformats, rtl-language-support
 */
 @import url("../flatdesign/style.css");
+
+.header #header-title {
+    background-image: url(../images/ieee-logo.svg);
+}
