@@ -11,3 +11,13 @@ of the styles inside media queries.
 ******************************************************************/
 
 @import url("../../../flatdesign/library/css/style.css");
+
+.lang-link {
+	position: absolute;
+	right: 0;
+	height: 2.5em;
+	width: 2.5em;
+	background-image: url(../images/language.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
