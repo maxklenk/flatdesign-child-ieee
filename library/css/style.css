@@ -21,3 +21,7 @@ of the styles inside media queries.
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+
+.header #inner-header .heading .logo {
+    background-image: url(../images/ieee-logo.svg);
+}

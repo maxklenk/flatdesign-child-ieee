@@ -26,4 +26,12 @@ if (defined('ICL_LANGUAGE_CODE')) {
 } else {
 	function lang_switch_link() {}
 }
+
+function ieee_login_css() {
+    wp_dequeue_style( bones_login_css );
+    wp_enqueue_style( 'ieee_login_css', get_stylesheet_directory_uri() . '/library/css/login.css', false );
+}
+
+add_action( 'login_enqueue_scripts', 'ieee_login_css', 15 );
+
 ?>
