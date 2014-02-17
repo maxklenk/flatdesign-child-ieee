@@ -32,3 +32,27 @@ of the styles inside media queries.
 .header #inner-header .heading .logo {
     background-image: url(../images/ieee-logo.svg);
 }
+
+.sidebar input {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: none;
+	display: inline-block;
+	font-weight: bold;
+	padding: 5px;
+	color: #fff;
+}
+
+/*
+ * List Category Post: custom pagination style
+ */
+.lcp_paginator li {
+	border: none !important;
+}
+
+/*
+ * Sidebar Login: hide submit button
+ */
+#wp-submit {
+	display: none;
+}
+
