@@ -34,4 +34,13 @@ function ieee_login_css() {
 
 add_action( 'login_enqueue_scripts', 'ieee_login_css', 15 );
 
+// Show posts of 'post', 'page' and 'movie' post types on home page
+add_action( 'pre_get_posts', 'add_my_post_types_to_query' );
+
+function add_my_post_types_to_query( $query ) {
+	if ( is_home() && $query->is_main_query() )
+		$query->set( 'post_type', array( 'event', 'post') );
+	return $query;
+}
+
 ?>
