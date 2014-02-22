@@ -49,11 +49,3 @@ of the styles inside media queries.
 .lcp_paginator li {
 	border: none !important;
 }
-
-/*
- * Sidebar Login: hide submit button
- */
-#wp-submit {
-	display: none;
-}
-
