@@ -21,7 +21,7 @@
                     </section> <!-- end article section -->
 
                     <footer class="article-footer">
-                        <?php the_tags('<span class="tags">' . __('Tags:', 'bonestheme') . '</span> ', ', ', ''); ?>
+                        <?php the_tags('<span class="tags">' . __('Tags', 'bonestheme') . ':</span> ', ', ', ''); ?>
 
                     </footer> <!-- end article footer -->
 
@@ -37,7 +37,7 @@
                         <p><?php _e("Uh Oh. Something is missing. Try double checking things.", "bonestheme"); ?></p>
                     </section>
                     <footer class="article-footer">
-                        <p><?php _e("This is the error message in the page.php template.", "bonestheme"); ?></p>
+                        <p></p>
                     </footer>
                 </article>
 
