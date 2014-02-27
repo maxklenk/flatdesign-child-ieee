@@ -53,6 +53,11 @@ of the styles inside media queries.
 /*
  * Custom styling for events manager widget
  */
+ .widget.widget_em_widget ul li {
+    clear: right;
+    margin-bottom:0.3em;
+}
+
 .widget.widget_em_widget ul li ul {
     margin-top: 0;
     display: inline-table;
