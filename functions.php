@@ -34,7 +34,7 @@ function ieee_login_css() {
 
 add_action( 'login_enqueue_scripts', 'ieee_login_css', 15 );
 
-// Show posts of 'post', 'page' and 'movie' post types on home page
+// Show posts of 'post' and 'event' post types on home page
 add_action( 'pre_get_posts', 'add_my_post_types_to_query' );
 
 function add_my_post_types_to_query( $query ) {
