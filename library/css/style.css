@@ -60,7 +60,6 @@ of the styles inside media queries.
 
 .widget.widget_em_widget ul li ul {
     margin-top: 0;
-    display: inline-table;
     font-size: .95em;
     float: right;
 }
