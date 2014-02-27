@@ -6,3 +6,6 @@ _[IEEE Passau](http://ieee.students.uni-passau.de/ "IEEE Student Branch Passau")
 ## Contributors
 - [Sebastian Henneberg](http://github.com/sebastianhenneberg)
 - [Max Klenk](http://github.com/maxklenk)
+ 
+## Patchers
+- [Thomas Stiegelmaier](https://github.com/stieglma)
