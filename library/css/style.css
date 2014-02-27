@@ -55,7 +55,7 @@ of the styles inside media queries.
  */
  .widget.widget_em_widget ul li {
     clear: right;
-    margin-bottom:0.3em;
+    margin-bottom: 0.3em;
 }
 
 .widget.widget_em_widget ul li ul {
@@ -67,4 +67,11 @@ of the styles inside media queries.
 .widget.widget_em_widget ul li a {
     text-decoration: none;
     font-weight: bold;
+}
+
+/*
+ * Custom styling for mailman/newsletter widget
+ */
+.widget .mailman_subscribe_widget input {
+    margin-bottom: .3em;
 }
