@@ -64,3 +64,7 @@ of the styles inside media queries.
     text-decoration: none;
     font-weight: bold;
 }
+
+.mailman_subscribe_widget input {
+    margin-bottom: 5px;
+}
