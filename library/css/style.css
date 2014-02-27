@@ -49,3 +49,18 @@ of the styles inside media queries.
 .lcp_paginator li {
 	border: none !important;
 }
+
+/*
+ * Custom styling for events manager widget
+ */
+.widget.widget_em_widget ul li ul {
+    margin-top: 0;
+    display: inline-table;
+    font-size: .95em;
+    float: right;
+}
+
+.widget.widget_em_widget ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
