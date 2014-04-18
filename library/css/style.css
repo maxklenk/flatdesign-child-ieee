@@ -75,3 +75,12 @@ of the styles inside media queries.
 .widget .mailman_subscribe_widget input {
     margin-bottom: .3em;
 }
+
+
+/*
+ * Custom styling for inline sponsors widget
+ */
+.inline-sponsors .textwidget {
+    text-align:center;
+    padding:1% 0
+}
