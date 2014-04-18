@@ -53,7 +53,7 @@ of the styles inside media queries.
 /*
  * Custom styling for events manager widget
  */
- .widget.widget_em_widget ul li {
+.widget.widget_em_widget ul li {
     clear: right;
     margin-bottom: 0.3em;
 }
@@ -67,6 +67,22 @@ of the styles inside media queries.
 .widget.widget_em_widget ul li a {
     text-decoration: none;
     font-weight: bold;
+}
+
+.widget.widget_em_widget h3 {
+    line-height: 1.2em;
+    margin: 0.4em 0
+}
+
+.widget.widget_em_widget span.date, .widget.widget_em_widget span.location {
+    font-size: .8em;
+    width: 100%;
+    text-align: left;
+    letter-spacing:-0.05em;
+}
+
+.widget.widget_em_widget span.location {
+    margin: -.1em 1em 0 0;
 }
 
 /*
