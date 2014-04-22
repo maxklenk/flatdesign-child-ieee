@@ -66,6 +66,8 @@
 						<?php bones_main_nav(); ?>
 					</nav>
 
+					<div id="menu-toggle" style="display: none;"><?php echo __('Show Menu', 'bonestheme') ?></div>
+
 				</div> <!-- end #inner-header -->
 
 			</header> <!-- end header -->
